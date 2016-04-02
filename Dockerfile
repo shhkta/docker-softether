@@ -16,3 +16,4 @@ RUN yum update -y && \
 EXPOSE 443/tcp 992/tcp 1194/tcp 1194/udp 5555/tcp 500/udp 4500/udp
 
 CMD ["./vpnserver", "execsvc"]
+
